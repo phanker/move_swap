@@ -1,0 +1,16 @@
+[package]
+name = "CoinIssuing"
+version = "1.0.0"
+authors = []
+
+[addresses]
+std = "0x1"
+coin_inssuing = "0x29ab21089013601b653136200988772e6dff4f16d996f8402f52f8d15860f8f2"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
